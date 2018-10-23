@@ -1,5 +1,5 @@
 #include<reg51.h>
-
+// https://exploreembedded.com/wiki/A4.8051_Communication_Protocols:UART,_RS232
 void UART_Init(int baudrate)
 { 
     SCON = 0x50;  // Asynchronous mode, 8-bit data and 1-stop bit
